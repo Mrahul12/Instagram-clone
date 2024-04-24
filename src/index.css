@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursives {
+ font-family: cursive;
+}
+
+.img {
+ aspect-ratio: 3/2;
+ object-fit: center;
+ width: 150px;
+ height: 150px;
+ background-position: center;
+
+}
+.grades{
+ background-image: linear-gradient(to right,
+   #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf);
+}
+
+.scrollbar {
+ scrollbar-width:none;
+}
+
+.scrollbar::-webkit-scrollbar {
+ display: none;
+}
